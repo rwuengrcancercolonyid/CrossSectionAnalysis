@@ -4,8 +4,8 @@ close all;
 clear variables;
 
 % Retrieve Image
-dir = 'C:\Users\JJensen\OneDrive\4 Senior\SeniorDesign\Matlab\cellPics\';
-picName = "treatment1 pic 1 IgG";
+dir = 'C:\cellPics\';
+picName = "image1";
 run(dir,picName);
 
 % Run the analysis on the inputted image, plot, and 
